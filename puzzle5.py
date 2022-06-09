@@ -1,5 +1,6 @@
 """
 Puzzle 5
+
 1. It is a thre-digit whole number.
 2. It is divisible by 4.
 3. It is divisible by 5.
@@ -10,6 +11,8 @@ Puzzle 5
 8. It not is divisible by 9.
 9. It not is divisible by 8.
 10. It not is divisible by 7.
+
+:source: https://twitter.com/OxnerLeah/status/1532896704093102080?s=20&t=hKu_1uS0NseeSxuuy_OZ_A
 """
 
 from math import lcm

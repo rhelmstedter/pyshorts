@@ -1,3 +1,5 @@
+"""Print an deck of cards using emojis"""
+
 suits = [
     spades := "♠️",
     clubs := "♣️",

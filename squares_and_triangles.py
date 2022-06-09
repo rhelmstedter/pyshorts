@@ -1,3 +1,12 @@
+"""
+Mathigon 2021 Puzzle Calendars 4
+
+After 1 and 36, what is the next number that is both a
+square number and a triangular number?
+
+:source: https://mathigon.org/puzzles
+"""
+
 squares = []
 n = 7
 while True:

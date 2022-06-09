@@ -1,6 +1,6 @@
-"""Puzzle 3"""
-
 """
+Puzzle 3
+
 1. It is a four-digit number.
 2. Each of its digit is even.
 3. Each of its digit is different.
@@ -11,6 +11,8 @@
 8. The number zero is not one of its digits.
 9. It is divisible by 8.
 10. Its hundreds digit is 8.
+
+:source: https://twitter.com/OxnerLeah/status/1532896704093102080?s=20&t=hKu_1uS0NseeSxuuy_OZ_A
 """
 
 possible_nums = []
