@@ -9,11 +9,10 @@ equal. What is the middle digit?
 """
 
 from itertools import permutations as P
-from functools import reduce
-from operator import mul
+from math import prod
 perms = P(range(1, 10), 7)
 for p in perms:
-    f, m, l = p[:3], p[2:5], p[4:]
-    if reduce(mul, f) == reduce(mul, m) == reduce(mul, l):
+    first3, middle3, last3 = p[:3], p[2:5], p[4:]
+    if prod(first3) == prod(middle3) == prod(last3):
         print(p[3])
         break
